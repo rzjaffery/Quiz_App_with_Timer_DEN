@@ -1,98 +1,96 @@
-QuizAppTimer
-📱 Description
-QuizAppTimer is an Android application built using Java and Android Studio.
-It is a simple multiple-choice quiz app that presents 5 questions, each with a 10-second countdown timer.
+Quiz App Timer 
 
-At the end of the quiz, the app displays the final score.
+Description:
+QuizAppTimer is an Android application built using Java and Android Studio. It is a simple multiple-choice quiz app that presents 5 questions, each with a 10-second countdown timer. At the end of the quiz, the app displays the final score. 
 
-🎯 Features
-5 Multiple Choice Questions (MCQs)
+Features:
 
-4 Options per question
+=> 5 Multiple Choice Questions (MCQs) 
 
-10-second countdown timer for each question
+=> 4 Options per question 
 
-Automatically moves to the next question when time runs out
+=> 10-second countdown timer for each question 
 
-Score Calculation
+=> Automatically moves to the next question when time runs out 
 
-Result Screen with final score display
+=> Score Calculation 
 
-Home Screen with:
+=> Result Screen with final score display 
 
-Start Quiz button
+Home Screen with: 
 
-Exit button
+=> Start Quiz button 
 
-🧰 Technologies Used
-Technology	Purpose
-Java	Main programming language
-Android Studio	IDE for development
-AppCompatActivity	Activity base class
-CountDownTimer	Timer implementation
-XML Layouts	UI Design
-String Resources	Questions & Options
+=> Exit button 
 
-📂 Project Structure
-pgsql
-Copy
-Edit
-QuizAppTimer/
-├── app/
-│   └── src/
-│       └── main/
-│           └── java/com/example/quizapptimer/
-│               ├── MainActivity.java
-│               ├── QuizActivity.java
-│               └── ResultActivity.java
-│           └── res/
-│               └── layout/
-│                   ├── activity_main.xml
-│                   ├── activity_quiz.xml
-│                   └── activity_result.xml
-│               └── values/
-│                   └── strings.xml
-│                   └── themes.xml
-🚀 How to Run the App
-Clone the repository or open the project in Android Studio.
+Technologies Used 
 
-Connect an Android Emulator or real device.
+=> Java (Main programming language )
 
-Click "Run ▶️" in Android Studio.
+=> Android Studio (IDE for development )
 
-Test the app:
+=> AppCompatActivity (Activity base class )
 
-Start Quiz → Runs the quiz with timer
+=> CountDownTimer (Timer implementation )
 
-Exit → Closes the app
+=> XML Layouts (UI Design )
 
-After the quiz, the Result Screen will show your score.
+=> String Resources (Questions & Options ) 
 
-🧪 Screenshots
-Screen	Description
-Home Screen with Start & Exit buttons
-Quiz Screen with timer and options
-Result Screen showing final score
+Project Structure 
+pgsql 
+CopyEdit 
+QuizAppTimer/ 
+├── app/ 
+│   └── src/ 
+│       └── main/ 
+│           └── java/com/example/quizapptimer/ 
+│               ├── MainActivity.java 
+│               ├── QuizActivity.java 
+│               └── ResultActivity.java 
+│           └── res/ 
+│               └── layout/ 
+│                   ├── activity_main.xml 
+│                   ├── activity_quiz.xml 
+│                   └── activity_result.xml 
+│               └── values/ 
+│                   └── strings.xml 
+│                   └── themes.xml 
+ 
 
-(Replace with your screenshots and rename accordingly)
+How to Run the App 
 
-📄 Requirements
-Software	Version
-Android Studio	Arctic Fox or above
-Android SDK	API 21 (Lollipop) or above
-Java	8 or above
+=> Clone the repository or open the project in Android Studio. 
 
-👨‍💻 Author
-Rayyan Zafar
-Mentor: Safwan Tahir
-Project for: Digital Empowerment Network App Development Bootcamp
+=> Connect to an Android Emulator or a real device. 
 
-📅 Deadline
-23-July-2025
+=> Click Run in Android Studio. 
 
-📥 Deliverables
-✅ GitHub Repository with clean code
+Test the app: 
 
-✅ README file with project details and screenshots
+=> Start Quiz: Runs the quiz with timer 
 
-✅ Android APK (Optional if submitting)
+=> Exit: Closes the app 
+
+=> After the quiz, the Result Screen will show your score. 
+
+Requirements:
+
+=> Android Studio (Narwhal 2025 )
+
+=> Android SDK (API 21 (Lollipop) )
+
+=> Java 17 
+
+
+=> Author: Rayyan Zafar 
+
+=> Mentor: Safwan Tahir 
+
+=> Project for: Digital Empowerment Network App Development Bootcamp 
+
+Deliverables:
+
+=> GitHub Repository with clean code 
+
+=> README file with project details and screenshots 
