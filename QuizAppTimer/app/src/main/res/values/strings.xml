@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">QuizAppTimer</string>
+    <string name="question_1">How many Infinity Stones are there?</string>
+    <string name="question_2">What is the only food that cannot go bad?</string>
+    <string name="question_3">Which of these is the most visited attraction in the world?</string>
+    <string name="question_4">What’s the heaviest organ in the human body?</string>
+    <string name="question_5">What element does the chemical symbol Au stand for?</string>
+
+    <!--  Question 1 options  -->
+    <string name="q1_op1">3</string>
+    <string name="q1_op2">5</string>
+    <string name="q1_op3">6</string>
+    <string name="q1_op4">10</string>
+
+    <!--  Question 2 options  -->
+    <string name="q2_op1">Dark chocolate</string>
+    <string name="q2_op2">Peanut butter</string>
+    <string name="q2_op3">Canned tuna</string>
+    <string name="q2_op4">Honey</string>
+
+    <!--  Question 3 options  -->
+    <string name="q3_op1">Eiffel Tower</string>
+    <string name="q3_op2">Statue of Liberty</string>
+    <string name="q3_op3">Forbidden City</string>
+    <string name="q3_op4">Colosseum</string>
+
+    <!--  Question 4 options  -->
+    <string name="q4_op1">Brain</string>
+    <string name="q4_op2">Liver</string>
+    <string name="q4_op3">Skin</string>
+    <string name="q4_op4">Heart</string>
+
+    <!--  Question 5 options  -->
+    <string name="q5_op1">Silver</string>
+    <string name="q5_op2">Magnesium</string>
+    <string name="q5_op3">Salt</string>
+    <string name="q5_op4">Gold</string>
+
+    <string name="option_2">Option 2</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+
+    <string name="time_left_10s">Time Left: 10s</string>
+    <string name="question_goes_here">Question Goes Here</string>
+    <string name="quiz_questions">Quiz Questions</string>
+    <string name="your_score">Your Score</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="exit">Exit</string>
+    <string name="welcome_to_quiz_app">Welcome to Quiz App</string>
+
+</resources>

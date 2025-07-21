@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#CAE8BD">
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="400dp"
+        android:text="@string/quiz_questions"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        />
+
+
+    <TextView
+        android:id="@+id/questionText"
+        android:text="@string/question_goes_here"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionText"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/time_left_10s"
+        android:textColor="#D32F2F"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#B0DB9C"
+        android:layout_marginTop="250dp"
+        android:text="@string/option_1" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#B0DB9C"
+        android:layout_marginTop="300dp"
+        android:text="@string/option_2" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#B0DB9C"
+        android:layout_marginTop="350dp"
+        android:text="@string/option_3" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#B0DB9C"
+        android:layout_marginTop="400dp"
+        android:text="@string/option_4" />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:background="#B0DB9C">
+
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#CAE8BD"
+        android:text="@string/welcome_to_quiz_app"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homeTitle"
+        android:layout_marginTop="-410dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ECFAE5"
+        android:text="@string/start_quiz" />
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homeTitle"
+        android:layout_marginTop="-350dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="#ECFAE5"
+        android:text="@string/exit" />
+
+</RelativeLayout>
